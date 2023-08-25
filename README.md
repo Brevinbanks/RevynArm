@@ -23,10 +23,16 @@ the end effector, assuming the orrientation can be achieved by the robot at that
 # The core scripts of interest are listed here:
 
 FK_Revyn: Calculates desired frame for any link of the robot given 6 joint angles
+
 IK_Revyn: Calculates a possible set of 6 joint angles for a desired end effector frame within reach of the robot
+
 Jac_Revyn: Calculates the spacial jacobian of the end effector relative to the base of the robot for a given set of joint angles
+
 Revyn_Controller: Controls the robot with an Arduino and moves it in a rectangular pattern
+
 Revyn_Controller_FK_Proving: Controls the robot with an Arduino and moves it to several spots defined by FK and IK
+
 RevynMat2ArdController: Arduino script for interpreting joint angles sent over serial communication and moves the robot accordingly
+
 
 Stay tuned for more updates.
